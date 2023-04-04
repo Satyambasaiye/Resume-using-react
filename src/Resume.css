@@ -1,0 +1,57 @@
+body {
+    width: 210mm;
+    height: 297mm;
+    margin: auto;
+    background-color: #ffffff;
+   
+  }
+.resume-container {
+    margin: 50px auto;
+    width: 210mm;
+    height: 220mm;
+    display: grid;
+    padding: 20px;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: #c7c4c4;
+    
+  }
+  
+  .left-column {
+    display: flexbox;
+    flex-direction: column;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
