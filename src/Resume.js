@@ -2,12 +2,16 @@ import React from 'react';
 import './Resume.css'; // Import the CSS file
 
 const Resume = () => {
-  return (
+  return (<>
+  
+  
     <div className="resume-container">
+      
       <div className="left-column">
-        <div className="summary">
-          <h2>Satyam Basaiye</h2>
-          
+        <h2>Satyam Basaiye</h2>
+
+        <div className="summary"> 
+        <h3>Summary</h3>         
           <p>Ambitious to kick start the career with globally
 recognized organization which will give me global
 exposure to enhance my skills and knowledge for
@@ -52,7 +56,7 @@ Percentage – 88.80%
             <li>JavaScript</li>
             <li>Python</li>
             <li>Java</li>
-            <li>SQL</li>
+            <li>Sql</li>
           </ul>
         </div>
         <div className="certificates">
@@ -76,7 +80,9 @@ and participate in auctions. </i></li>
         </div>
       </div>
     </div>
+    </>
   );
+  
 };
 
 export default Resume;
