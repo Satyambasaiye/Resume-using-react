@@ -57,10 +57,11 @@ Percentage – 88.80%
             <li>Python</li>
             <li>Java</li>
             <li>Sql</li>
+            <li>React</li>
           </ul>
         </div>
         <div className="certificates">
-          <h3>Certificates</h3>
+          <h3>Certificate</h3>
           <ul>
             <li>The joy of computing using python </li>
             <li><i>12-Weeks NPTEL course by IIT Ropar </i></li>
